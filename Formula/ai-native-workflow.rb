@@ -1,10 +1,10 @@
 class AiNativeWorkflow < Formula
   desc "AI-native development workflow CLI (hooks, skills, agents for Claude Code & Copilot CLI)"
   homepage "https://github.com/igorilic/agentic-orchestration"
-  url "https://github.com/igorilic/agentic-orchestration/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "2175e5ecf346e672d28567e503cebb3f5ddbf7d8c7891863afa3a0cc9f8bfb3c"
+  url "https://github.com/igorilic/agentic-orchestration/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "c577f5c9af743a484498f5907ae1718bc6bbc18e72790b15871f6b1f8295e0d7"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   # macOS ships bash 3.2; the CLI uses bash 4+ features (declare -A, namerefs).
   depends_on "bash"
